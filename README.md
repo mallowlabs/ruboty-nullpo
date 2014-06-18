@@ -2,6 +2,11 @@
 An ruboty handler to request ｶﾞｯ.
 
 ## Usage
+```ruby
+# Gemfile
+gem 'ruboty-nullpo', github: 'mallowlabs/ruboty-nullpo'
+```
+
 ```
 @ruboty nullpo -> ｶﾞｯ.
 @ruboty ぬるぽ -> ｶﾞｯ.
