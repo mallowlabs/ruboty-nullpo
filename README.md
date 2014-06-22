@@ -18,5 +18,16 @@ gem 'ruboty-nullpo', github: 'mallowlabs/ruboty-nullpo'
 NULLPO_RESPONSE_STYLE - rich: Use rich style ｶﾞｯ
 ```
 
+Rich style ｶﾞｯ
+```
+　 Λ＿Λ　　　　＼＼
+（　・∀・）　　　|　|　ｶﾞｯ
+と　　　　）　　　|　|
+　 Ｙ　/ノ　　　 人
+　　 /　）　 　 < 　>_Λ∩
+＿/し´　／／. Ｖ｀Д´）/
+（＿フ彡　　　　　　 /　>>@mallowlabs
+```
+
 ## Acknowledge
 This handler is ported form [hubot-nullpo by qckanemoto](https://github.com/qckanemoto/hubot-nullpo/).
