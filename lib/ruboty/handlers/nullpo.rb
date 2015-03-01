@@ -5,9 +5,10 @@ module Ruboty
     class Nullpo < Base
       env :NULLPO_RESPONSE_STYLE, "rich: Use rich style ｶﾞｯ", optional: true
 
-      on /ぬるぽ|ヌルポ|nullpo/i, name: "nullpo", description: "Request ｶﾞｯ"
+      on /ぬるぽ|ヌルポ|nullpo/i, name: "nullpo", description: "Request ｶﾞｯ", all: true
 
       def nullpo(message)
+        return if message.from == robot.name
 begin
         body = if rich?
           <<-GA
