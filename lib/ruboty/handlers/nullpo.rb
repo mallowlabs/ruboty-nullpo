@@ -8,8 +8,6 @@ module Ruboty
       on /ぬるぽ|ヌルポ|nullpo/i, name: "nullpo", description: "Request ｶﾞｯ", all: true
 
       def nullpo(message)
-        return if message.from == robot.name
-begin
         body = if rich?
           <<-GA
 　 Λ＿Λ　　　　＼＼
@@ -24,9 +22,6 @@ GA
           'ｶﾞｯ'
         end
         message.reply(body)
-rescue => msg
-puts msg
-end
       end
 
       private
